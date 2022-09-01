@@ -7,6 +7,10 @@ h1 {
     font-size: 50px;
 }
 
+p {
+    font-weight: 550;
+}
+
 h2 {
     font-size: 40px;
 }
@@ -17,15 +21,18 @@ h2 {
 
 section {
     display: flex;
+    margin-bottom: 40px;
 }
 
 .half {
     width: 50%;
     padding-left: 4%;
+    padding-right: 2px;
 }
 
 .half img {
-    width: 100%;
+    width: 80%;
+    padding-top: 70px;
 }
 
 .btn {
@@ -35,4 +42,12 @@ section {
     border-radius: 7px;
     background-image: linear-gradient(orange, tomato);
     font-weight: 800;
+}
+
+.half {
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: rgba(105, 111, 111, 0.799);
 }
