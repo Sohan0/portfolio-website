@@ -1,0 +1,38 @@
+body {
+    font-family: "Trirong", serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.msm {
+    color: rgb(217, 155, 21);
+}
+
+section {
+    display: flex;
+}
+
+.half {
+    width: 50%;
+    padding-left: 4%;
+}
+
+.half img {
+    width: 100%;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 30px;
+    color: aliceblue;
+    border-radius: 7px;
+    background-image: linear-gradient(orange, tomato);
+    font-weight: 800;
+}
