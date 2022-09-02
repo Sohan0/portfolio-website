@@ -1,3 +1,4 @@
+/*********** START TOP-DREAM BIG SECTION **************/
 body {
     font-family: "Trirong", serif;
     margin: 0;
@@ -19,7 +20,7 @@ h2 {
     color: rgb(217, 155, 21);
 }
 
-section {
+.flex {
     display: flex;
     margin-bottom: 40px;
 }
@@ -48,6 +49,44 @@ section {
     background-color: rgb(255, 255, 255);
 }
 
+.ss {
+    background-color: rgb(255, 255, 255);
+}
+
+/*********** END TOP-DREAM BIG SECTION **************/
+
 body {
     background-color: rgba(105, 111, 111, 0.799);
+}
+
+.box {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    border-radius: 10px;
+}
+
+#full {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(211, 101, 54), rgb(75, 3, 33));
+    border-image-slice: 1;
+}
+
+#baby {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(35, 192, 224), rgb(45, 13, 142));
+    border-image-slice: 1;
+}
+
+#ex-text {
+    text-align: center;
+    text-shadow: rgb(175, 31, 2) 1px 0 10px;
+    font-style: italic;
+}
+
+.ftr {
+    text-align: center;
+    padding-top: 5%;
 }
